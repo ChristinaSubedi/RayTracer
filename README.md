@@ -1,0 +1,4 @@
+The basic idea is to reproduce natural visual impressions. In reality, light sources, like the sun, send light rays into space. These light rays are changed in many ways. They are scattered by matte surfaces (e.g. walls), reflected by smooth surfaces (e.g. mirrors) or refracted by transparent objects (e.g. water). Some light rays strike the eye of an observer and are finally perceived as an image.
+
+To reproduce this exactly is extremely complex, because most of the light rays do not reach the observer. Therefore, an approach is taken in the opposite direction: First, the observer is modeled as a camera with a projection plane on which the resulting image is drawn. Now “viewing rays” are sent from the camera into the scene. These may hit objects there. Their color is calculated at the hit points and entered in the resulting image (the projection plane).
+
